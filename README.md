@@ -17,7 +17,7 @@ AudioRecordingGUI_V2 is a Windows Forms application in C# that allows you to rec
 
 1. Clone the repository:
    ````bash
-   git clone https://github.com/PeterUnnomed/Audio-Recording.git
+   git clone https://github.com/PeterUnnomed/Audio_Recording.git
 2. Open the project in Visual Studio. 
 3. Restore the NuGet dependencies (NAudio).
 4. Compile and run the project.
