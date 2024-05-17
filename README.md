@@ -10,7 +10,7 @@ AudioRecordingGUI_V2 is a Windows Forms application in C# that allows you to rec
 - Pop-up message with the location of the saved file.
 - Window centered on screen at startup.
 
-  ![Application Screenshot](images/screenshot.png)
+  ![Application Screenshot](screenshot.png)
 
 ## Requirements
 
