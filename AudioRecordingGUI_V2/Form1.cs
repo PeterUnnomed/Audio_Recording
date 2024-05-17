@@ -29,7 +29,9 @@ namespace AudioRecordingGUI_V2
         {
             waveSource = new WaveInEvent // Initialize the WaveInEvent object
             {
-                WaveFormat = new WaveFormat(44100, 24, 1) // Set the wave format to 44.1kHz, 24 bits, mono
+                //mono = 1
+                //stereo = 2
+                WaveFormat = new WaveFormat(44100, 24, 2) // Set the wave format to 44.1kHz, 24 bits, stereo
             };
 
             waveSource.DataAvailable += WaveSource_DataAvailable; // Attach the DataAvailable event handler
